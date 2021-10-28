@@ -8,6 +8,7 @@ clearvars;
 close all;
 sca;
 
+a = arduino(); % Initialize arduino
 
 while 1
 %     prompt = 'Do you want more? Y/N: ';
